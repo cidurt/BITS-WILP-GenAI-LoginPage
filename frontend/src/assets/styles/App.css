@@ -1,0 +1,30 @@
+.fraud-check-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fraud-check-button:hover {
+    background-color: #218838;
+  }
+  
+  .fraud-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fraud-result.fraud {
+    color: red;
+  }
+  
+  .fraud-result.legit {
+    color: green;
+  }
+  
